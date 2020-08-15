@@ -6,6 +6,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="FiraCode.ttf">
+            <string>FiraCode-Light_Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -20,10 +25,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObM-dj-E7P">
-                                <rect key="frame" x="118" y="602" width="185" height="32"/>
+                                <rect key="frame" x="140" y="568" width="135" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="Click the screen to start!"/>
+                                <fontDescription key="fontDescription" name="FiraCode-Light_Regular" family="Fira Code" pointSize="18"/>
+                                <color key="tintColor" red="0.56013809771584322" green="0.7693973183631897" blue="0.65275645921973624" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Start" backgroundImage="rectangle.fill" catalog="system">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.16078431369999999" green="0.08235294118" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -37,5 +45,6 @@
     </scenes>
     <resources>
         <image name="homescreen" width="500" height="500"/>
+        <image name="rectangle.fill" catalog="system" width="128" height="93"/>
     </resources>
 </document>
