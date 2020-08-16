@@ -14,6 +14,9 @@
 		4C0EAE1A24E79CDE00E75CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0EAE1924E79CDE00E75CC4 /* Assets.xcassets */; };
 		4C0EAE1D24E79CDE00E75CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0EAE1B24E79CDE00E75CC4 /* LaunchScreen.storyboard */; };
 		4C0EAE2524E7A36500E75CC4 /* FiraCode.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C0EAE2424E7A36500E75CC4 /* FiraCode.ttf */; };
+		4C0EAE7324E9017F00E75CC4 /* questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0EAE7224E9017F00E75CC4 /* questions.swift */; };
+		4C0EAE7524E901C400E75CC4 /* timeRemaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0EAE7424E901C400E75CC4 /* timeRemaining.swift */; };
+		4C0EAE7724E902AF00E75CC4 /* howOften.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0EAE7624E902AF00E75CC4 /* howOften.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		4C0EAE1C24E79CDE00E75CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C0EAE1E24E79CDE00E75CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C0EAE2424E7A36500E75CC4 /* FiraCode.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FiraCode.ttf; sourceTree = "<group>"; };
+		4C0EAE7224E9017F00E75CC4 /* questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questions.swift; sourceTree = "<group>"; };
+		4C0EAE7424E901C400E75CC4 /* timeRemaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeRemaining.swift; sourceTree = "<group>"; };
+		4C0EAE7624E902AF00E75CC4 /* howOften.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howOften.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				4C0EAE1024E79CD800E75CC4 /* AppDelegate.swift */,
 				4C0EAE1224E79CD900E75CC4 /* SceneDelegate.swift */,
 				4C0EAE1424E79CD900E75CC4 /* ViewController.swift */,
+				4C0EAE7624E902AF00E75CC4 /* howOften.swift */,
+				4C0EAE7424E901C400E75CC4 /* timeRemaining.swift */,
+				4C0EAE7224E9017F00E75CC4 /* questions.swift */,
 				4C0EAE1624E79CD900E75CC4 /* Main.storyboard */,
 				4C0EAE1924E79CDE00E75CC4 /* Assets.xcassets */,
 				4C0EAE1B24E79CDE00E75CC4 /* LaunchScreen.storyboard */,
@@ -142,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0EAE7324E9017F00E75CC4 /* questions.swift in Sources */,
+				4C0EAE7524E901C400E75CC4 /* timeRemaining.swift in Sources */,
 				4C0EAE1524E79CD900E75CC4 /* ViewController.swift in Sources */,
 				4C0EAE1124E79CD900E75CC4 /* AppDelegate.swift in Sources */,
 				4C0EAE1324E79CD900E75CC4 /* SceneDelegate.swift in Sources */,
+				4C0EAE7724E902AF00E75CC4 /* howOften.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

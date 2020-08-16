@@ -10,13 +10,18 @@ import UIKit
 import SwiftUI
 
 class ViewController: UIViewController {
+    
+    var seconds = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //updateTimeLabel()
         
-        Image(homescreen)
+        
     }
+    
+
 
 
 }
